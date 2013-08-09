@@ -1,0 +1,14 @@
+mai_han_akat: ั
+tone: [่้๊๋]
+forward_dep: [าำิีึุู็์ะ]
+oee: ื
+backward_dep: [เแโใไ]
+any: [ก-์]
+
+* any mai_han_akat any
+* any mai_han_akat tone any
+* any tone
+* any forward_dep
+* backward_dep any
+* any oee tone any
+* any oee any
